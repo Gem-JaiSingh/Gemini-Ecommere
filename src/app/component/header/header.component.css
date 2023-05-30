@@ -1,0 +1,24 @@
+i{
+    font-size: 40px ;
+    margin-right: 15px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.form-control{
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.search-icon{
+    z-index: 10;
+    top: 22px;
+    color: blue;
+    right: 47%;
+    position: absolute;
+}
+.cart-icon{
+    font-size: 30px; margin-right: 0px; color: white;
+}

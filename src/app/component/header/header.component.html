@@ -1,0 +1,19 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i  class="fas fa-shipping-fast">
+                
+            </i>
+            <span class="heading" >Geminikart</span>
+            <div class="form-group">
+                <input type="text" placeholder="Search product" [(ngModel)]="searchTerm" (keyup)="search($event)" class="form-control">
+                
+            </div>
+            <span class="fas fa-search search-icon"></span>
+        </div>
+        <button class="btn primary-btn" routerLink="cart">
+            <i  class="fas fa-cart-plus cart-icon"></i>
+            <div class="badge bg-danger" style="font-size: 10px;">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
