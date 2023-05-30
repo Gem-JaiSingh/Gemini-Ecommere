@@ -11,6 +11,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { FilterPipe } from './Shared/filter.pipe'; 
 import { FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { ProductDetailsComponent } from './component/product-details/product-details.component';
+// import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProductDetailsComponent } from './component/product-details/product-det
     ProductsComponent,
     FilterPipe,
     ProductDetailsComponent,
+    // BrowserAnimationsModule,
     
   ],
   imports: [
